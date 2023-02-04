@@ -3,10 +3,11 @@ import {
     RouterProvider,
     Route,
   } from "react-router-dom";
-
 import Home from '../pages/home'
-import Test from '../pages/teste'
 import Image from '../components/image'
+import ProductPage from "./products";
+import ProductDetail from "./productDetail";
+
 
   const router = createBrowserRouter([
     {
@@ -14,13 +15,17 @@ import Image from '../components/image'
       element: <Home />,
     },
     {
-      path: "/teste",
-      element: <Test />,
+      path: "/Skates",
+      element: <ProductPage />,
     },
     {
       path: "/main",
       element: <Image />,
     },
+    {
+      path: "/Skates/:id",
+      element: <ProductDetail />,
+    }
   ]);
 
 export const Router = () => (

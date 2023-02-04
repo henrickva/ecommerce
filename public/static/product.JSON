@@ -1,67 +1,38 @@
 [    
     {
         "id": "154",
-        "name": "Skate Brutissimo",
+        "name": "Skates",
         "price": "139,90",
         "oldPrice": "49,90",
-        "imagem": "https://www.xtreme-skate.com/8564-home_default/santa-cruz-shape-skate-knibbs-paralysis-pro-825.jpg"
+        "imagem": "https://cdn-icons-png.flaticon.com/512/1099/1099640.png"
     },
     {
         "id": "1547",
-        "name": "Skate Legalzim",
+        "name": "Camisas",
         "price": "179,90",
         "oldPrice": "69,90",
-        "imagem": "https://www.xtreme-skate.com/6231-large_default/element-shape-skate-third-eye-schaar-85.jpg"
+        "imagem": "https://cdn-icons-png.flaticon.com/512/121/121863.png"
     },
     {
         "id": "32",
-        "name": "Skate Maluco",
+        "name": "Tenis",
         "price": "139,90",
         "oldPrice": "49,90",
-        "imagem": "https://www.xtreme-skate.com/6230-home_default/element-shape-skate-third-eye-loy-825.jpg"
+        "imagem": "https://cdn-icons-png.flaticon.com/512/5144/5144559.png"
     },
     {
         "id": "45",
-        "name": "Skate Maluco",
+        "name": "Calças",
         "price": "139,90",
         "oldPrice": "49,90",
-        "imagem": "https://www.xtreme-skate.com/6230-home_default/element-shape-skate-third-eye-loy-825.jpg"
+        "imagem": "https://cdn-icons-png.flaticon.com/512/4996/4996473.png"
     },
     {
         "id": "1",
-        "name": "Skate Maluco",
+        "name": "Bonés",
         "price": "139,90",
         "oldPrice": "49,90",
-        "imagem": "https://www.xtreme-skate.com/6230-home_default/element-shape-skate-third-eye-loy-825.jpg"
-    },
-    {
-        "id": "136",
-        "name": "Skate Maluco",
-        "price": "139,90",
-        "oldPrice": "49,90",
-        "imagem": "https://www.xtreme-skate.com/6230-home_default/element-shape-skate-third-eye-loy-825.jpg"
-    },
-    {
-        "id": "5466",
-        "name": "Skate Maluco",
-        "price": "139,90",
-        "oldPrice": "49,90",
-        "imagem": "https://www.xtreme-skate.com/6230-home_default/element-shape-skate-third-eye-loy-825.jpg"
-    },
-    {
-        "id": "156",
-        "name": "Skate Maluco",
-        "price": "139,90",
-        "oldPrice": "49,90",
-        "imagem": "https://www.xtreme-skate.com/6230-home_default/element-shape-skate-third-eye-loy-825.jpg"
-    },
-    {
-        "id": "1546",
-        "name": "Skate Maluco",
-        "price": "139,90",
-        "oldPrice": "49,90",
-        "imagem": "https://i.ibb.co/LYpSdqr/7j66cqSL.jpg"
+        "imagem": "https://cdn-icons-png.flaticon.com/512/2806/2806254.png"
     }
-    
 ]
 
