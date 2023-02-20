@@ -1,6 +1,5 @@
 import React from "react"
 import DATA from "../assets/data"
-import { NavLink } from "react-router-dom"
 
 export default function ProductPage(){
 
@@ -24,11 +23,11 @@ export default function ProductPage(){
                         {item.price} 
                     </span>
 
-                    <NavLink to={`/Skates/${item.id}`}
-                        className="bg-dark-blue text-white p-1 px-2 mt-1 rounded hover:bg-blue-900"
-                    >
-                        Compre Agora
-                    </NavLink> 
+                    <a href={`Skates/${item.id}`}
+                                    className="bg-dark-blue text-white p-1 px-2 mt-1 rounded hover:bg-blue-900" 
+                                >
+                                    Compre Agora
+                                </a>
                 </div>
             </div>)
     }

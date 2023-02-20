@@ -6,7 +6,7 @@ export default function Carrousel() {
     const [product, setProduct] = useState([]);
 
     useEffect(()=>{
-        fetch('http://localhost:5173//static/product.json' )
+        fetch(`${window.location.origin}/static/product.json` )
         .then((response) =>response.json())
         .then(setProduct);
     },[])
@@ -35,12 +35,12 @@ export default function Carrousel() {
                                 <span className="text-xl">
                                     {name}
                                 </span>
-
-                                <NavLink to={`${item.name}`}
-                                    className="bg-dark-blue text-white p-1 px-2 mt-1 rounded hover:bg-blue-900"
+                            
+                                <a href={`/${item.name}`}
+                                    className="bg-dark-blue text-white p-1 px-2 mt-1 rounded hover:bg-blue-900" 
                                 >
                                     Descubra Mais
-                                </NavLink> 
+                                </a>
                             </div>
                         </div>
                     )

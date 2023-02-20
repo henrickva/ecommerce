@@ -9,6 +9,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@stripe/react-stripe-js": "^1.16.4",
+    "@stripe/stripe-js": "^1.46.0",
     "localforage": "^1.10.0",
     "lord-icon-element": "^4.0.0",
     "lottie-web": "^5.9.6",
