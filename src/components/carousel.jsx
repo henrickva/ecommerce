@@ -1,6 +1,5 @@
-//Colocar as imagens hospedando no site https://pt-br.imgbb.com/
 import { useEffect, useState } from "react"
-import { NavLink } from "react-router-dom";
+
 
 export default function Carrousel() {
     const [product, setProduct] = useState([]);
