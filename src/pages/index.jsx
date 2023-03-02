@@ -14,7 +14,7 @@ import ProductDetail from "./productDetail";
       element: <Home />,
     },
     {
-      path: "/Skates",
+      path: "/skates",
       element: <ProductPage />,
     },
     {
