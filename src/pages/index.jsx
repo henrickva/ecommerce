@@ -27,6 +27,4 @@ import ProductDetail from "./productDetail";
     }
   ]);
 
-export const Router = () => (
-    <RouterProvider router={router} />
-)
+export {router}
