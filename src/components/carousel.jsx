@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 
 export default function Carrousel() {
@@ -36,11 +36,11 @@ export default function Carrousel() {
                                     {name}
                                 </span>
                             
-                                <Link to={`/${item.name}`}
+                                <NavLink to={`/${item.name}`}
                                     className="bg-dark-blue text-white p-1 px-2 mt-1 rounded hover:bg-blue-900" 
                                 >
                                     Descubra Mais
-                                </Link>
+                                </NavLink>
                             </div>
                         </div>
                     )

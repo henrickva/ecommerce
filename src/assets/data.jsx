@@ -75,4 +75,4 @@ const DATA  = [
     },
 ]
 
-export {DATA}
+export default DATA
