@@ -7,7 +7,7 @@ import Home from './home'
 import Image from '../components/image'
 import ProductPage from "./products";
 import ProductDetail from "./productDetail";
-import Teste from './teste'
+
 
   const router = createBrowserRouter([
     {
@@ -16,7 +16,7 @@ import Teste from './teste'
     },
     {
       path: "/skates",
-      element: <Teste />,
+      element: <ProductPage />,
     },
     {
       path: "/main",
