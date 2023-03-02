@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { Link } from 'react-router-dom'
 
 
 export default function Carrousel() {
@@ -35,11 +36,11 @@ export default function Carrousel() {
                                     {name}
                                 </span>
                             
-                                <a href={`/${item.name}`}
+                                <Link to={`/${item.name}`}
                                     className="bg-dark-blue text-white p-1 px-2 mt-1 rounded hover:bg-blue-900" 
                                 >
                                     Descubra Mais
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     )
